@@ -61,4 +61,20 @@ Usage:
 
 	python3.6 account_usage.py -e https://ecsxyz1.abc.com:4443 --token-endpoint https://ecsxyz1.abc.com:4443/login -u <namespace_admin_ID> -p <namespace_admin_password> -t <tokenfile.tkn> --no-verify-ssl
 
+Example Output:
+	========================================================================
+	Namespace                                          consumption GB
+	========================================================================
+	demo1                                                 57 GB
+	========================================================================
+	Audit Log:
+	IP:x.x.x.x User:user1 UPLOAD Object:greenhouse.pptx Size:8388608 Bucket:bucket1 Namespace:demo1 Date:2018-04-23 10:30:21
+
+	IP:x.x.x.x User:user1 UPLOAD Object:snapshot.jpg Size:108622 Bucket:bucket1 Namespace:demo1 Date:2018-04-23 11:26:03
+
+	IP:x.x.x.x User:user1 DELETE Object:greenhouse.pptx Bucket:bucket1 Namespace:demo1 Date:2018-04-23 11:27:07
+
+	IP:x.x.x.x User:user1 UPLOAD Object:img_1682.jpg Size:3552439 Bucket:bucket1 Namespace:demo1 Date:2018-04-23 11:26:39
+
+	========================================================================
 
