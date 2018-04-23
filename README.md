@@ -6,7 +6,7 @@ https://github.com/EMCECS/ecs-account-usage
 
 Added audit log feature to audit delete, upload events for S3 protocol.
 
-## 1. Configure each ECS node to forward logs to the ecs-syslog server:
+## 1. Configure each ECS node to forward logs to a syslog server(ecs-syslog):
 
 sudo vi /etc/rsyslog.conf
 
