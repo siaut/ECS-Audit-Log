@@ -62,6 +62,7 @@ Usage:
 	python3.6 account_usage.py -e https://ecsxyz1.abc.com:4443 --token-endpoint https://ecsxyz1.abc.com:4443/login -u <namespace_admin_ID> -p <namespace_admin_password> -t <tokenfile.tkn> --no-verify-ssl
 
 Example Output:
+
 	========================================================================
 	Namespace                                          consumption GB
 	========================================================================
