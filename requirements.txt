@@ -2,3 +2,4 @@ python-ecsclient==1.1.2
 begins==0.9
 pyOpenSSL==16.2.0
 Flask==0.12
+pytz
