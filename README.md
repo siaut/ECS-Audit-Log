@@ -1,5 +1,5 @@
 # ECS-Audit-Log
-Audit S3 data access in DELL EMC ECS 3.1
+Audit ECS S3 data access in DELL EMC ECS 3.1
 
 Accounting code is based on:
 https://github.com/EMCECS/ecs-account-usage
