@@ -55,7 +55,10 @@ systemctl restart rsyslog.service
 
 	yum -y install gcc libffi-devel python-devel openssl-devel
 	yum -y install python36u-pip
-	pip3.6 install -r requirements.txt
+	git clone https://github.com/siaut/ECS-Audit-Log.git
+	cd ECS-Audit-Log
+	pip3.6 install -r requirements.txt	
+	
 
 Usage:
 
